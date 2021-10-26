@@ -1,0 +1,172 @@
+/*====COLORS====*/
+/*
+COLORS
+    Light Brown: rgb(252,194,123)
+    Med Brown: rgb(238,164,96)
+    Dark Brown: rgb(222,144,77)
+    Red: rgb(212,62,48) {#D43E30}
+    Dark Red: rgb(181,43,29)
+    Brown: rgb(105,76,63)
+
+    ****
+    COMPLEMENTS
+    Persian Green: rgb(27, 153, 139) [Red "Complement"]
+*/
+
+*{
+    /*The global selector affects all elements*/
+    /*border: 2px solid gray;*/
+    font-family: FinkHeavy, "Courier New";
+    margin: 2px;
+}
+
+:root{
+    position: relative;
+    height: 100vh;
+
+    /*COLORS*/
+    --CGRed: #e03c31;
+    --EerieBlack: #191919;
+    --MellowApricot: #fcc27b;
+    --PersianGreen: #1B998B;
+    --SandyBrown: #eea460;
+    --UnitedNationsBlue: #4A8FE7;
+}
+
+body{
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--MellowApricot);
+}
+
+td{
+    text-align: center;
+}
+
+@font-face {
+    font-family: "FinkHeavy";
+    src: url("FinkHeavy.woff2") format("woff2");
+}
+/*========TAGS========*/
+/*
+:root{
+    /*The :root element is always the <html> element*/
+    /* 
+    
+
+
+
+}
+
+body{
+    background-color: rgb(252, 194, 123);
+}
+
+h2{
+    color: rgb(105, 76, 63);
+    
+}
+
+p{
+    color: rgb(25,25,25);
+}
+
+div{
+    
+}
+
+td{
+    text-align: center;
+}
+*/
+
+main{
+    position: relative;
+    top: 150px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*========IDs========*/
+/*
+#Navigation{
+    display: flex;
+    justify-content: center;
+}
+
+#Debtor-Header{
+    color: rgb(181,43,29);
+}
+
+#Creditor-Header{
+    color: rgb(27, 153, 139);
+}
+
+#Story-Select{
+    display: flex;
+}
+
+#section-DebtorStorySelect, #section-CreditorStorySelect{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+#header-Body{
+    display: grid;
+    height: 120px;
+    width: 100%;
+}
+/*========CLASSES========*/
+.blue-background{
+    background-color: var(--UnitedNationsBlue);
+}
+
+.center-text{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.green-background{
+    background-color: var(--PersianGreen);
+}
+
+.header-body{
+    left: 0px;
+    top: 0px;
+}
+
+.home-logo{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.page-header-content{
+    position: static;
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+.red-background{
+    background-color: var(--CGRed);
+}
+
+.sandy-background{
+    background-color: var(--SandyBrown);
+}
+
+.section-story{
+    width: 50%;
+}
+
+.table-story{
+    width: 100%;
+    height: 100%;
+}
